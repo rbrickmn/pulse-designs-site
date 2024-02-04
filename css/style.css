@@ -191,3 +191,49 @@ header button a {
   margin-bottom: 1.25rem;
   margin-left: 2.5rem;
 }
+
+/* Employee section */
+
+#employee-section {
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-bottom: 5.625rem;
+  background-color: #92a48a;
+}
+
+#employee-bio-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 36.5rem;
+}
+
+#employee-bio-container .employee-box img {
+  max-height: 28.125rem;
+  max-width: 23.125rem;
+  margin-bottom: 1rem;
+}
+
+.employee-box h2 {
+  color: #ffffff;
+  font-family: Merriweather, serif;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.employee-box p {
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  max-width: 23rem;
+}
+
+.employee-text {
+  padding-top: 5.625rem;
+  padding-bottom: 1.625rem;
+  color: #ffffff;
+}
+
+.tenure {
+  font-size: 1rem;
+  font-style: italic;
+}
