@@ -147,5 +147,47 @@ header button a {
 
 #portfolio-image-grid img {
   max-height: 20rem;
-  margin: 1.25rem;
+  /* margin: 1.25rem; */
+}
+
+/* Portfolio Styles */
+
+#portfolio-section {
+  padding-left: 12rem;
+  padding-right: 12rem;
+  padding-bottom: 5.625rem;
+}
+
+#portfolio-image-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#portfolio-image-grid img {
+  max-height: 20rem;
+}
+
+.one {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-right: 2.5rem;
+}
+
+.two {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 2.5rem;
+}
+
+.three {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-right: 4rem;
+}
+
+.four {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
+  margin-left: 2.5rem;
 }
