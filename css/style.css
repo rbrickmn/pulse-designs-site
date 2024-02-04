@@ -212,6 +212,7 @@ header button a {
   max-height: 28.125rem;
   max-width: 23.125rem;
   margin-bottom: 1rem;
+  border-radius: 10px;
 }
 
 .employee-box h2 {
