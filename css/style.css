@@ -14,9 +14,36 @@
   color: #ffffff;
 }
 
+.section-heading {
+  text-align: center;
+  margin-top: 5.625rem;
+  margin-bottom: 2.188rem;
+  color: #1f2428;
+}
+
+.section-heading h2 {
+  font-family: Merriweather, serif;
+  font-weight: bold;
+  font-size: 2.50rem;
+}
+
+.section-heading p {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 1.50rem;
+}
+
+main {
+  margin-top: 6.188rem;
+}
+
 /* Header styles */
 
 header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -68,7 +95,7 @@ header button a {
   text-decoration: none;
 }
 
-/* Body styles */
+/* Hero styles */
 
 #hero-section {
   background-image: url(/images/landing-image.png);
@@ -103,3 +130,5 @@ header button a {
   padding-left: 34.75rem;
   max-width: 100%;
 }
+
+/* Portfolio Styles */
