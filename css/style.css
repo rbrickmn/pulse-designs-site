@@ -147,28 +147,5 @@ header button a {
 
 #portfolio-image-grid img {
   max-height: 20rem;
-}
-
-.one {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-  margin-right: 2.5rem;
-}
-
-.two {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-  margin-left: 2.5rem;
-}
-
-.three {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-  margin-right: 1.25rem;
-}
-
-.four {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
-  margin-left: 2.5rem;
+  margin: 1.25rem;
 }
