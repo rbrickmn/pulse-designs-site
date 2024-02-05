@@ -203,16 +203,15 @@ header button a {
 #employee-bio-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 #employee-bio-container .employee-box {
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 0.5rem;
 }
 
 #employee-bio-container .employee-box img {
   max-height: 28.125rem;
-  max-width: 23.125rem;
   margin-bottom: 1rem;
   border-radius: 10px;
 }
@@ -335,6 +334,9 @@ header button a {
 @media only screen and (max-width: 1675px) {
   #contact-us {
     background-image: url(/images/contact-us-mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
     padding: 4rem;
     margin-right: 15.4375rem;
     margin-left: 15.4375rem;
