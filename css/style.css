@@ -87,6 +87,16 @@ header button {
   border: none;
   border-radius: 25px;
   padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  font-family: Poppins, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+header button:hover {
+  background-color: #ffffff;
+  color: #cc7d37;
 }
 
 header button a {
@@ -159,6 +169,13 @@ header button a {
   }
 }
 
+@media only screen and (max-width: 790px) {
+  .hero-container {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+}
+
 /* Portfolio Styles */
 
 #portfolio-section {
@@ -197,6 +214,13 @@ header button a {
   margin: 1.25rem;
 }
 
+@media only screen and (max-width: 1420px) {
+  #portfolio-section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
 /* Employee section */
 
 #employee-section {
@@ -204,6 +228,9 @@ header button a {
   padding-right: 15rem;
   padding-bottom: 5.625rem;
   background-color: #92a48a;
+  background-image: url("../images/employee-background-green-mobile.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #employee-bio-container {
@@ -246,8 +273,8 @@ header button a {
   font-style: italic;
 }
 
-@media only screen and (max-width: 1420px) {
-  #portfolio-section {
+@media only screen and (max-width: 1427px) {
+  #employee-section {
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -343,6 +370,10 @@ header button a {
   cursor: pointer;
 }
 
+#contact-us fieldset button:hover {
+  opacity: 0.9;
+}
+
 @media only screen and (max-width: 1389px) {
   #contact-us {
     background-image: url("../images/contact-us-mobile.jpg");
@@ -350,13 +381,13 @@ header button a {
     background-size: cover;
     border-radius: 15px;
     padding: 4rem;
-    margin-right: 15.4375rem;
-    margin-left: 15.4375rem;
+    margin-right: 5.4375rem;
+    margin-left: 5.4375rem;
     margin-top: 8rem;
     margin-bottom: 8rem;
   }
-  
-  #contact-us fieldset input {  
+
+  #contact-us fieldset input {
     border: 2px solid #1f2428;
     display: block;
   }
@@ -372,7 +403,7 @@ header button a {
   }
 }
 
-@media only screen and (max-width: 1190px) {
+@media only screen and (max-width: 1107px) {
   #contact-us {
     background-image: none;
   }
@@ -426,4 +457,10 @@ footer .copyright {
   color: #d9d9d9;
   font-family: Poppins, sans-serif;
   font-size: 1rem;
+}
+
+@media only screen and (max-width: 790px) {
+  .middle {
+    display: none;
+  }
 }
