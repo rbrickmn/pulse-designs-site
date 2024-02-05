@@ -218,3 +218,95 @@ header button a {
   font-size: 1rem;
   font-style: italic;
 }
+
+/* Contact section */
+
+#contact-us {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6.375rem;
+  margin-bottom: 6.375rem;
+  margin-right: 8.4375rem;
+  margin-left: 8.4375rem;
+}
+
+#contact-us img {
+  max-height: 24.56rem;
+  border-radius: 10px;
+}
+
+.contact-info {
+  max-width: 42.5rem;
+  margin-right: 6.375rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info h1 {
+  font-family: Merriweather, serif;
+  color: #1f2428;
+  font-size: 2.5rem;
+  margin-bottom: 0.375rem;
+}
+
+.contact-info p {
+  display: inline-block;
+  font-family: Poppins, sans-serif;
+  color: #1f2428;
+  font-size: 1.5rem;
+  margin-bottom: 0.375rem;
+}
+
+.contact-info svg {
+  color: #1f2428;
+  margin-right: 0.7rem;
+}
+
+.icon {
+  display: flex;
+  align-items: baseline;
+}
+
+#contact-us fieldset {
+  border: none;
+}
+
+#contact-us fieldset input {
+  display: block;
+  margin-bottom: 0.875rem;
+  padding-top: 1.0625rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 1.25rem;
+  padding-right: 5rem;
+  margin-right: 2rem;
+  border-radius: 15px;
+  border: none;
+  background-color: #d9d9d9;
+  font-size: 1.50rem;
+  font-style: italic;
+  font-family: Poppins, sans-serif;
+}
+
+#contact-us fieldset button {
+  padding-top: 1.0625rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 4.375rem;
+  padding-right: 4.375rem;
+  background-color: #cc7d37;
+  color: #ffffff;
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer styles */
+
