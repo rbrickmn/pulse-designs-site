@@ -9,6 +9,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .logo-thin {
   font-weight: 300;
   color: #ffffff;
@@ -33,16 +37,11 @@
   font-size: 1.5rem;
 }
 
-main {
-  margin-top: 5rem;
-}
-
 /* Header styles */
 
 header {
-  position: fixed;
+  position: sticky;
   top: 0;
-  width: 100%;
   z-index: 100;
   display: flex;
   align-items: center;
@@ -107,12 +106,6 @@ header button a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 790px) {
-  nav {
-    display: none;
-  }
-}
-
 /* Hero styles */
 
 #hero-section {
@@ -147,33 +140,6 @@ header button a {
   padding-right: 5rem;
   padding-left: 34.75rem;
   max-width: 100%;
-}
-
-@media only screen and (max-width: 1000px) {
-  #hero-section h1 {
-    text-align: left;
-    font-size: 2.5rem;
-  }
-
-  #hero-section p {
-    text-align: left;
-  }
-
-  .hero-container {
-    padding-top: 10.25rem;
-    padding-bottom: 10.25rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    margin-right: 8rem;
-    margin-left: 8rem;
-  }
-}
-
-@media only screen and (max-width: 790px) {
-  .hero-container {
-    margin-right: 5rem;
-    margin-left: 5rem;
-  }
 }
 
 /* Portfolio Styles */
@@ -212,13 +178,6 @@ header button a {
 #portfolio-image-grid img {
   max-height: 20rem;
   margin: 1.25rem;
-}
-
-@media only screen and (max-width: 1420px) {
-  #portfolio-section {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
 }
 
 /* Employee section */
@@ -271,13 +230,6 @@ header button a {
 .tenure {
   font-size: 1rem;
   font-style: italic;
-}
-
-@media only screen and (max-width: 1427px) {
-  #employee-section {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
 }
 
 /* Contact section */
@@ -374,44 +326,6 @@ header button a {
   opacity: 0.9;
 }
 
-@media only screen and (max-width: 1389px) {
-  #contact-us {
-    background-image: url("../images/contact-us-mobile.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 15px;
-    padding: 4rem;
-    margin-right: 5.4375rem;
-    margin-left: 5.4375rem;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
-  }
-
-  #contact-us fieldset input {
-    border: 2px solid #1f2428;
-    display: block;
-  }
-
-  .contact-image {
-    display: none;
-  }
-
-  .contact-info {
-    justify-content: center;
-    margin-right: 0;
-    padding-right: 0;
-  }
-}
-
-@media only screen and (max-width: 1107px) {
-  #contact-us {
-    background-image: none;
-  }
-
-  .contact-info svg {
-    display: none;
-  }
-}
 /* Footer styles */
 
 footer {
@@ -462,5 +376,93 @@ footer .copyright {
 @media only screen and (max-width: 790px) {
   .middle {
     display: none;
+  }
+}
+
+/* Media queries */
+
+@media only screen and (max-width: 790px) {
+  nav {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1427px) {
+  #employee-section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1389px) {
+  #contact-us {
+    background-image: url("../images/contact-us-mobile.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+    padding: 4rem;
+    margin-right: 5.4375rem;
+    margin-left: 5.4375rem;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+  }
+
+  #contact-us fieldset input {
+    border: 2px solid #1f2428;
+    display: block;
+  }
+
+  .contact-image {
+    display: none;
+  }
+
+  .contact-info {
+    justify-content: center;
+    margin-right: 0;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 1107px) {
+  #contact-us {
+    background-image: none;
+  }
+
+  .contact-info svg {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1420px) {
+  #portfolio-section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  #hero-section h1 {
+    text-align: left;
+    font-size: 2.5rem;
+  }
+
+  #hero-section p {
+    text-align: left;
+  }
+
+  .hero-container {
+    padding-top: 10.25rem;
+    padding-bottom: 10.25rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-right: 8rem;
+    margin-left: 8rem;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .hero-container {
+    margin-right: 5rem;
+    margin-left: 5rem;
   }
 }
