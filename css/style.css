@@ -37,6 +37,10 @@ html {
   font-size: 1.5rem;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Header styles */
 
 header {
@@ -176,7 +180,8 @@ header button a {
 }
 
 #portfolio-image-grid img {
-  max-height: 20rem;
+  max-width: 100%;
+  height: auto;
   margin: 1.25rem;
 }
 
@@ -464,5 +469,34 @@ footer .copyright {
   .hero-container {
     margin-right: 5rem;
     margin-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  #contact-us fieldset {
+    padding: 0;
+  }
+  #contact-us fieldset input {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 463px) {
+  footer p {
+    display: none;
+  }
+
+  .middle {
+    display: initial;
+  }
+}
+
+@media only screen and (max-width: 372px) {
+  .main-logo {
+    display: none;
+  }
+
+  .hidden {
+    display: initial;
   }
 }
