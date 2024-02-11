@@ -211,6 +211,7 @@ header button a {
   max-height: 28.125rem;
   margin-bottom: 1rem;
   border-radius: 10px;
+  box-shadow: 0px 0px 37px -9px rgba(31,36,40,1);
 }
 
 .employee-box h2 {
